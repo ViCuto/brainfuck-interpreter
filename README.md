@@ -48,10 +48,13 @@ The interpreter provides an interactive CLI menu allowing you to choose from sev
 
 To build and run this project locally, you need the official Haskell compiler (**GHC**) and the Haskell build tool (**Cabal**).
 
-The standard and easiest way to install both is by using **ghcup** (the Haskell toolchain installer). If you don't have them set up, run the following commands
+Due to dependency constraints in the `cabal.project.freeze` file, this project specifically requires **GHC version 9.4.7**. 
+
+The standard and easiest way to install both is by using **ghcup** (the Haskell toolchain installer). If you don't have them set up, run the following commands:
 
 ```sh
-ghcup install ghc
+ghcup install ghc 9.4.7
+ghcup set ghc 9.4.7
 ghcup install cabal-install
 cabal update
 ```
