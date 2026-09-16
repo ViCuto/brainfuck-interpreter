@@ -105,7 +105,7 @@ Enter file name:
 examples/countdown.bf
 Enter Ints (space-separated numbers):
 3
-Output: [3, 2, 1]
+Output: [3,2,1]
 ```
 
 ## Architecture Details
