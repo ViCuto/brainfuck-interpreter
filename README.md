@@ -113,4 +113,4 @@ Output: [3, 2, 1]
 * **Tape:** Uses a custom tape structure `([Int], Int, [Int])` with a size of 1000 cells to handle memory efficiently.
 * **Parsing:** The Brainfuck code is fully parsed into a list of custom `BFCommand` data types before execution, ensuring efficient loop handling and bracket matching.
 
-*For a more detailed explanation of the logic, functions, and architecture, you can check the full project documentation (available in Bulgarian) located in* *`documentary/Documentation_BG.pdf`**.*
+*For a more detailed explanation of the logic, functions, and architecture, you can check the full project documentation (available in Bulgarian) located in* *`documentary/Documentation_BG.pdf`.*
